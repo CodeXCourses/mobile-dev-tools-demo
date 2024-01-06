@@ -1,20 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Text encoding -->
   <meta charset="UTF-8">
+  <!-- Viewport for mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
   <title>Dev Tools Demo</title>
+  <!-- Themes and styles-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 
-  <h1>Hello and welcome!</h1>
-
-  <p>
-    This repo is designed to help you learn about Dev Tools even if you don't have access to a laptop. You can access a simulated Dev Tools by clicking on the gear box on the bottom right of this page!
-  </p>
+  <div class="container">
+    <h1>Hello and welcome!</h1>
+  
+    <p>
+      This repo is designed to help you learn about Dev Tools even if you don't have access to a laptop. You can access a simulated Dev Tools by clicking on the gear box on the bottom right of this page!
+    </p>
+  
+    <div class="row">
+      <div class="col">
+        <div class="card m-3">
+          <img src="img/dwight.jpg" alt="Dwight" class="card-img-top rounded-circle">
+          <div class="card-body">
+            <h5 class="card-title">
+              Dwight (Instructor)
+            </h5>
+            <p class="card-text">
+              Hi! I’m a full stack developer and instructor at CodeX Academy.
+            </p>
+            <p class="card-text">
+              Before getting into coding, worked as a teacher in Baton Rouge and China.
+            </p>
+            <p>
+              I enjoy working with JavaScript, Python, and Linux.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card m-3">
+          <img src="img/robert.jpg" alt="Robert" class="card-img-top rounded-circle">
+          <div class="card-body">
+            <h5 class="card-title">
+              Robert (Instructor)
+            </h5>
+            <p class="card-text">
+              Hi! I’m a full stack developer and instructor at CodeX Academy.
+            </p>
+            <p class="card-text">
+              Before getting into coding, I was language teacher in Taiwan.
+            </p>
+            <p>
+              I specialize in JavaScript and the MERN stack.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card m-3">
+          <img src="img/josue.jpg" alt="Josue" class="card-img-top rounded-circle">
+          <div class="card-body">
+            <h5 class="card-title">
+              Josue (TA)
+            </h5>
+            <p class="card-text">
+              Hello! I'm a full stack developer and teacher assistant/mentor at CodeX Academy.
+            </p>
+            <p class="card-text">
+              I've been developing web and mobile applications for 4 years now.
+            </p>
+            <p>
+              My favorite library to work with is React, but I also enjoy creating backend servers with NodeJS!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   
-  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+  <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
   <script>eruda.init();</script>
 </body>
 </html>
